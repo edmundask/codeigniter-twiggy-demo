@@ -1,0 +1,23 @@
+{% extends _layout %}
+
+{% block content %}
+
+    A list of articles here.
+
+    <ul>
+
+		<li>First article</li>
+		<li>Second article</li>
+		<li>Third article</li>
+
+	</ul>
+
+	<p>Oh look, a paragraph here! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+
+	<p>{{ anchor('articles/view', 'Read some article...') }}</p>
+
+	<p>{{ anchor('articles/view_with_sidebar', 'Read some article with a sidebar!') }}</p>
+
+{% endblock %}

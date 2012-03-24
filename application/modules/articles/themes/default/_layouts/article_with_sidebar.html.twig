@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <title>{{ title }}</title>
+    </head>
+    <body>
+
+        <div id="content" style="width: 70%; float: left;">
+
+            {% block content %}{% endblock %}
+
+        </div>
+
+        <div id="sidebar" style="width: 30%; float: left;">
+
+            {% block sidebar %}{% endblock %}
+
+        </div>
+
+    </body>
+</html>
